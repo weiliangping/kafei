@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
+<meta name="viewport" content="width=device-width">
+	<title>预定</title>
+	<script type="text/javascript" src='js/jquery-1.8.0.min.js'></script>
+	<link rel="stylesheet" type="text/css" href="css/reset.css">
+	<link href="css/yuding.css" rel="stylesheet" />
+</head>
+<body>
+  <div class='top'>
+	<ul class="header">
+		<li><a href="#" id='img'><img src='imgs/8_23.png'></a></li>
+		<li><h1>预定</h1></li>
+		<li><a href="#"></a></li>
+	</ul>
+	</div>
+
+	<div id="wrapper">
+	  <div id='scroller'>
+		<div id="news">
+		 <ul class='first'>
+			<li>
+			<a href="#" title="人数">人数:</a>
+			<span>3人</span>
+			</li>
+			<li style='border-top:none;'>
+			<a href="#" title="选择环境">选择环境:</a>
+			<span>比较优雅,靠窗户</span>
+			</li>
+			<li style='border-top:none;'>
+			<a href="#" title="时间">时间:</a>
+			<span>下午5点</span>
+			</li>
+	        <input type='submit' value='提交' id='two'>
+		   </ul>
+        </div>    
+	</div>
+</div>
+</div>
+  <script type="text/javascript" src="js/iScroll.js"></script>
+<script type="text/javascript">
+  var myScroll;
+        function loaded() {
+          myScroll = new iScroll('wrapper', { scrollbarId: 'myScrollbar' });
+        }
+
+        document.addEventListener('touchmove', function (e) { e.preventDefault(); }, false);
+
+        document.addEventListener('DOMContentLoaded', loaded, false);
+</script>
+</body>
+</html>

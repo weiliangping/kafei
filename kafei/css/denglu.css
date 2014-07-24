@@ -1,0 +1,103 @@
+html,body{overflow: hidden;
+	display:-webkit-box;
+	-webkit-box-orient:vertical;
+	width:100%;
+	height:100%;
+}
+
+.top{
+	position:absolute; 
+    z-index:2;
+	top:0; 
+    left:0;
+	width:100%;
+	height:3em;
+	line-height:3em;
+	background:#413122;
+	padding:0;
+	color:#eee;
+	font-size:2em;
+	text-align:center;
+}
+
+.header{
+	display:-webkit-box;
+	width:100%;
+}
+
+#wrapper {
+	position:absolute; 
+    z-index:1;
+	top:1em; 
+    bottom:0em; 
+    left:0;
+	width:100%;
+	overflow:auto;
+}
+#img{margin-left:0.5em;}
+.header li{
+	-webkit-box-flex:1;
+	background:#413122;
+	line-height:3em;
+	text-align: left;
+}
+.header li h1{
+	font-size:1em;
+	font-weight: bold;
+	padding-left: 1em;
+}
+#scroller {
+	position:absolute; 
+    z-index:1;
+	width:100%;
+	padding:0;
+}
+#news{width:100%;
+     }
+#news img{vertical-align:middle;
+          width:100%;
+          -webkit-box-pack:center;
+	     -webkit-box-align:center;
+	    }
+
+#box1{ width:100%;
+	    margin-top:0;
+		display:-webkit-box;-webkit-box-sizing:border-box;
+		-webkit-box-pack:justify;
+	    -webkit-box-pack:center;
+	    -webkit-box-align:center;
+	   -moz-background-size:100% 100%;  
+            background-size:100% 100%;
+	   }
+#box1 img{margin-top:80px;}
+.first{ width:98%; height:180px;
+	    margin-left:0.5em; margin-right:0.5em;
+		margin-top:0.9em;
+	   }
+.first li{width:98%; height:4em; 
+	       border: 1px solid #cfcfcf;
+	       margin-top:8px;
+	       background: #fff;
+	       display:block;
+           text-decoration: none;-webkit-box-flex:1;
+           line-height:3.5em;
+         
+          }
+.first li a{line-height: 2.7em;
+	        font-size:1.5em;
+	        font-family:"微软雅黑";
+            text-decoration: none;
+            color: #898989;
+            padding-left:1em;
+          }
+.deng{width:98%; height:2.7em; margin-top:0.4em;
+      background:#5e4936;}
+.deng { 
+	      color:#fff;
+		  text-decoration:none;
+		  font-size:1.6em;
+		  text-align:center;
+		  font-family:'微软雅黑';
+		  font-weight:normal;}
+
+

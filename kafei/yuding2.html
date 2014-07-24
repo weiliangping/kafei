@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
+	<title>登陆</title>
+	<link rel="stylesheet" type="text/css" href="css/reset.css">
+	<link href="css/yuding2.css" rel="stylesheet" />
+</head>
+<body>
+  <div class='top'>
+	<ul class="header">
+		<li><a href="#" id='img'><img src='imgs/8_23.png'></a></li>
+		<li><h1>查看</h1></li>
+		<li><a href="#"></a></li>
+	</ul>
+	</div>
+
+	<div id="wrapper">
+		<div id='scroller'>
+		<div id="news">
+		<div id='box1'></div>
+		<div class='td'>
+          <ul>
+          <li><a href="#">雅舒咖啡店</a><span><img src="imgs/biao1.png">距离:2Km</span></li>
+          <li><img src="imgs/61_10.png">
+          	  <img src="imgs/61_10.png">
+          	  <img src="imgs/61_10.png">
+          	  <img src="imgs/61_10.png">
+          	  <b>可以团购哦</b></li>
+	    </ul>
+		</div>
+	    <div id='box2'>
+	      <h2>环境</h2>
+         <ul> 
+          <li><img src="imgs/1.png"><br /><a herf='#'>舒适一角</a></li>
+		  <li><img src="imgs/2.png"><br /><a herf='#'>环境一角</a></li>
+		  <li><img src="imgs/3.png"><br /><a herf='#'>清新一角</a></li>
+		</ul>
+	    </div>
+	     <div id='inp'>
+          <input type='button' value='预定' class='two'>
+         </div>
+	    </div>
+        </div>
+	  </div>
+</body>
+     <script type="text/javascript" src="js/iScroll.js"></script>
+     <script type="text/javascript">
+       var myScroll;
+        function loaded() {
+          myScroll = new iScroll('wrapper', { scrollbarId: 'myScrollbar' });
+        }
+
+        document.addEventListener('touchmove', function (e) { e.preventDefault(); }, false);
+
+        document.addEventListener('DOMContentLoaded', loaded, false);
+</script>
+</html>

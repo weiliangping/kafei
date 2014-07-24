@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
+	<title>更多美味</title>
+	<link rel="stylesheet" type="text/css" href="css/reset.css">
+	<link href="css/gengduo.css" rel="stylesheet" />
+</head>
+<script type="text/javascript">
+
+var myScroll;
+function loaded() {
+	myScroll = new iScroll('wrapper', { checkDOMChanges: true });
+	setInterval(function () {
+		if (myScroll.isReady())
+			document.getElementById('thelist').innerHTML += '<li></li>';
+	}, 2000);
+}
+
+document.addEventListener('touchmove', function (e) { e.preventDefault(); }, false);
+document.addEventListener('DOMContentLoaded', loaded, false);
+
+</script>
+<body>
+  <div class='top'>
+	<ul class="header">
+		<li><a href="#" id='img'><img src='imgs/8_23.png'></a></li>
+		<li><h1>更多</h1></li>
+		<li><a href="#"></a></li>
+    </ul>
+	</div>
+
+	<div id="wrapper">
+		<div id="scroller">
+		<div id="news">
+		 <ul class='first'>
+			<li>
+			<a href="#" title="修改资料">修改资料</a>
+			<img src="imgs/29_06.png">
+			</li>
+			<li>
+			<a href="#" title="我的帐号">我的帐号</a>
+			<img src="imgs/29_06.png">
+			</li>
+		  </ul>
+		  <ul class='two'>
+			<li>
+			<a href="#" title="系统通知">系统通知</a>
+			<img src="imgs/29_06.png">
+			</li >
+			<li>
+			<a href="#" title="意见反馈">意见反馈</a>
+			<img src="imgs/29_06.png">
+			</li>
+		    <li  class='a'>
+			<a href="#" title="美味分享 ">美味分享</a>
+			<img src="imgs/29_06.png">
+			</li>
+		<label class="box2">
+		 <input type="submit" id="btn6" value="退出登录">
+		</label>
+    </div>
+	</div>
+	</div>
+	<div class='bottom'>
+     
+      <ul class="footer">
+        <li><a herf='shouye.html'><img src="imgs/21_19.png" class="p"><br />首页</a></li>
+        <li><a herf='fujin.html'><img src="imgs/22_19.png"class="p"><br />附近</a></li>
+        <li><a herf='#'><img src="imgs/24_22.png"class="p"><br />环境</a></li>
+        <li><a herf='#'><img src="imgs/23_22.png" class="s"><br />更多</a></li>
+        </ul>
+    
+    </div>
+    <script type="text/javascript" src="js/iScroll.js"></script>
+<script type="text/javascript">
+  var myScroll;
+        function loaded() {
+          myScroll = new iScroll('wrapper', { scrollbarId: 'myScrollbar' });
+        }
+
+        document.addEventListener('touchmove', function (e) { e.preventDefault(); }, false);
+
+        document.addEventListener('DOMContentLoaded', loaded, false);
+</script>
